@@ -222,7 +222,7 @@
 							<div id="awal" class="awal">
 											<h3 class="welcome">Halo selamat datang di quiz PRYTNA CODE</h3>
 						<input type="text" name="Nama" placeholder="Nama lengkap" class="nama" id="nama"><br>
-						<button class="mulai" id="mulai">Mulai</button>
+						<button class="mulai" id="mulai" onclick="nam()">Mulai</button>
 						<script>
 										$(document).ready(function(){
   $("#mulai").click(function(){
@@ -591,13 +591,10 @@ $(document).ready(function(){
      
 				}
 				
-					$(document).ready(function() {
-		$("#mulai").click(function(){
-						var name = $("#nama").val()
-						$("#hai").html(name)
-						$("#nama").val("")
-				});
-				});
+					function nam() {
+  var x = document.getElementById("nama").value;
+  document.getElementById("hai").innerHTML = x;
+}
 				
 				
 </script>
