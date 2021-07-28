@@ -220,7 +220,7 @@
 				
 				<form name="form">
 							<div id="awal" class="awal">
-											<h3 class="welcome">Halo selamat datang di quiz PRYTNA CODE</h3>
+											<h3 class="welcome">Halo selamat datang di quiz PRYTNA</h3>
 						<input type="text" name="Nama" placeholder="Nama lengkap" class="nama" id="nama"><br>
 						<button class="mulai" id="mulai" onclick="nam()">Mulai</button>
 						<script>
@@ -591,7 +591,7 @@ $(document).ready(function(){
      
 				}
 				
-					function nam() {
+					function nam(){
   var x = document.getElementById("nama").value;
   document.getElementById("hai").innerHTML = x;
 }
