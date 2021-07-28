@@ -12,7 +12,7 @@
 				margin:auto;
 				display:block;
 				width:90%;
-				margin-top:45%;
+				margin-top:40%;
 				displa:none;
 }
 
@@ -28,7 +28,8 @@
 				margin:auto;
 				display:block;
 				border:none;
-				text-decoration:none;
+				text-decoration:none; width:50%;
+
 				padding:10px;
 				border-radius:3px;
 				box-shadow: 0px 0px 9px grey; font-size:9px;
