@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="in">
 <head>
 				<title>Judul halaman</title>
@@ -13,14 +12,15 @@
 				margin:auto;
 				display:block;
 				width:90%;
-				margin-top:50%;
+				margin-top:45%;
 				displa:none;
 }
 
 .welcome{
 				text-align:center;
 				font-family:Cursive;
-				color:white;
+				color:white; font-size:15px;
+
 				
 }
 
@@ -31,7 +31,7 @@
 				text-decoration:none;
 				padding:10px;
 				border-radius:3px;
-				box-shadow: 0px 0px 9px grey;
+				box-shadow: 0px 0px 9px grey; font-size:9px;
 				
 }
 
